@@ -1,0 +1,26 @@
+# Runtime state & secrets
+queue.json
+.env
+.env.*
+*.db
+*.sqlite*
+
+# Rendered videos & build artifacts (270M+)
+projects/
+*.mp4
+*.mp3
+*.wav
+
+# TTS binary (re-downloadable, 112M)
+bin/
+
+# Python
+__pycache__/
+*.pyc
+.venv*/
+venv/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
